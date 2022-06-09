@@ -19,8 +19,8 @@ const MyWork = () => {
 
 
                     <div class="card-actions justify-center">
-                        {/* <button class="btn btn-sm btn-outline btn-neutral">Buy Now</button> */}
-                        <Link class="btn btn-sm btn-outline btn-primary" to="">Live Website</Link>
+                        <a href="https://laptop-parts-202a1.web.app/" target="blank"><button
+                            class="btn btn-sm btn-outline btn-primary">Live Website</button> </a>
                     </div>
                 </div>
             </div>
@@ -38,8 +38,9 @@ const MyWork = () => {
 
 
                     <div class="card-actions justify-center">
-                        <button class="btn btn-sm btn-outline btn-neutral" to="https://syedmehedi0003.github.io/Strict/">Buy Now</button>
-                        {/* <Link class="btn btn-sm btn-outline btn-primary" to="https://syedmehedi0003.github.io/Strict/">Live Website</Link> */}
+
+                        <a href="https://gym-service-5a99c.web.app/" target="blank"><button
+                            class="btn btn-sm btn-outline btn-primary">Live Website</button> </a>
                     </div>
                 </div>
             </div>
@@ -58,7 +59,8 @@ const MyWork = () => {
 
                     <div class="card-actions justify-center">
 
-                        <Link class="btn btn-sm btn-outline btn-primary" to="">Live Website</Link>
+                        <a href="https://service-provider-48aa5.web.app/" target="blank"><button
+                            class="btn btn-sm btn-outline btn-primary">Live Website</button> </a>
                     </div>
                 </div>
 
