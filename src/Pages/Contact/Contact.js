@@ -2,13 +2,13 @@ import React from 'react';
 
 const Contact = () => {
     return (
-        <div class="hero min-h-screen">
+        <div class="hero h-96 mb-64 lg:mb-20 ">
             <form action="mailto:mehedihasanbahar@gmail.com" method="POST">
                 <div class="hero-content flex-col lg:flex-row-reverse">
 
                     <div class="text-center lg:text-left">
-                        <h1 class="text-5xl font-bold text-primary">Contact Me</h1>
-                        <p class="py-6">I am a Frontend Web Developer.Contact with with me, Or you can share your feedback</p>
+                        <h1 class="text-4xl font-bold text-primary">Contact Me</h1>
+                        <p class="py-6">I am a Frontend Web Developer.Contact with me, Or you can share your feedback.</p>
                     </div>
                     <div class="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
                         <div class="card-body">

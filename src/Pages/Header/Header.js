@@ -1,12 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import mypic from '../../images/mypic4.jpg';
 
 const Header = () => {
 
     const menuItems = <>
         <li><Link to="/">HOME</Link></li>
-        {/* <li><Link to="/">ABOUT ME</Link></li>
-        <li><Link to="/">SKILLS</Link></li> */}
+        <li><Link to="/about">ABOUT ME</Link></li>
+        <li><Link to="/skill">SKILLS</Link></li>
         <li><Link to="/mywork">MY WORK</Link></li>
         <li><Link to="/contact">CONTACT ME</Link></li>
     </>
@@ -23,8 +24,9 @@ const Header = () => {
                         {menuItems}
                     </ul>
                 </div>
-                <img src="" alt="" />
-                <Link class="btn btn-ghost normal-case text-xl" to="/">Syed Mahade Hasan</Link>
+                {/* <img src="" alt="" /> */}
+                <img src={mypic} class="max-w-sm  rounded-full  w-8 lg:w-14" />
+                <Link class="btn btn-ghost text-lg lg:text-2xl normal-case" to="/">Syed Mahade Hasan</Link>
             </div>
             <div class="navbar-end hidden lg:flex">
                 <ul class="menu menu-horizontal p-0">
