@@ -10,7 +10,7 @@ const MyWork = () => {
             <h1 class="text-4xl font-bold text-primary mb-8">My Work</h1>
             <div className='grid grid-rows-1 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5'>
 
-                <div class="card card-compact w-full lg:w-96 px-5 lg:px-0  bg-base-100 shadow-xl">
+                <div class="card card-compact w-4/5 lg:w-full lg:w-96 mx-10 lg:mx-0  lg:px-0  bg-base-100 shadow-xl">
                     <figure><img src={img1} alt="Shoes" className='h-64 w-full' /></figure>
                     <div class="card-body">
                         <h2 class="card-title text-2xl justify-center">Laptop Accessories</h2>
@@ -30,7 +30,7 @@ const MyWork = () => {
                 </div>
 
 
-                <div class="card card-compact w-full lg:w-96 px-5 lg:px-0  bg-base-100 shadow-xl">
+                <div class="card card-compact w-4/5 lg:w-full lg:w-96 mx-10 lg:mx-0  lg:px-0  bg-base-100 shadow-xl">
                     <figure><img src={img2} alt="Shoes" className='h-64 w-full' /></figure>
                     <div class="card-body">
                         <h2 class="card-title text-2xl justify-center">Gym House </h2>
@@ -52,7 +52,7 @@ const MyWork = () => {
                 </div>
 
 
-                <div class="card card-compact w-full lg:w-96 px-5 lg:px-0 bg-base-100 shadow-xl">
+                <div class="card card-compact w-4/5 lg:w-full lg:w-96 mx-10 lg:mx-0 lg:px-0 bg-base-100 shadow-xl">
                     <figure><img src={img3} alt="Shoes" className='h-64 w-full' /></figure>
                     <div class="card-body">
                         <h2 class="card-title text-2xl justify-center">Service Provider</h2>

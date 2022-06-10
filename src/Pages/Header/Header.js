@@ -10,7 +10,7 @@ const Header = () => {
         <li><Link to="/skill">SKILLS</Link></li>
         <li><Link to="/mywork">MY WORK</Link></li>
         <li><Link to="/contact">CONTACT ME</Link></li>
-        <li><Link to="/blog">Blogs</Link></li>
+        <li><Link to="/blog">BLOGS</Link></li>
     </>
 
 
@@ -26,7 +26,8 @@ const Header = () => {
                     </ul>
                 </div>
                 {/* <img src="" alt="" /> */}
-                <img src={mypic} class="max-w-sm  rounded-full  w-8 lg:w-14" />
+                <img src={mypic} class="max-w-sm  rounded-full  w-10 lg:w-14" />
+
                 <Link class="btn btn-ghost text-lg lg:text-2xl normal-case" to="/">Syed Mahade Hasan</Link>
             </div>
             <div class="navbar-end hidden lg:flex">

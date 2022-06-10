@@ -1,0 +1,42 @@
+.typing-demo {
+    width: 26ch;
+    animation: typing 4s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-size: 2em;
+}
+
+@media only screen and (max-width: 600px) {
+    .typing-demo {
+        width: 16ch;
+        animation: typing 4s steps(22), blink .5s step-end infinite alternate;
+        white-space: nowrap;
+        overflow: hidden;
+        border-right: 3px solid;
+        font-size: 2em;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .typing-demo {
+        width: 24ch;
+        animation: typing 4s steps(22), blink .5s step-end infinite alternate;
+        white-space: nowrap;
+        overflow: hidden;
+        border-right: 3px solid;
+        font-size: 2em;
+    }
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+}
+
+@keyframes blink {
+    100% {
+        border-color: transparent
+    }
+}

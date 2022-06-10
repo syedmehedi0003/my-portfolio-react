@@ -3,13 +3,13 @@ import mypic from '../../images/pic7.jpg';
 
 const About = () => {
     return (
-        <div class="mb-20">
+        <div class="lg:mb-20 mb-40">
 
             <div class="hero-content flex-col lg:flex-row h-96">
 
-                <img src={mypic} class="max-w-sm   rounded-full lg:w-80 w-60" />
-                <div className='text-center lg:text-left px-0 lg:px-2'>
-                    <h1 class="text-4xl font-bold text-primary">About My Self</h1>
+                <img src={mypic} class="max-w-sm   rounded-full lg:w-80 w-60 " />
+                <div className='text-center lg:text-left px-0 lg:px-8'>
+                    <h1 class="text-4xl font-bold text-primary mb-4">About My Self</h1>
                     <p class="py-2">I am Syed Mahade Hasan.
                         I have completed my B.sc in CSE degree from the Department of Computer Science and Engineering.</p>
 

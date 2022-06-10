@@ -1,8 +1,8 @@
 import React from 'react';
-import Html from '../../images/html.png';
-import Css from '../../images/css.png';
-import Js from '../../images/js.png';
-import react from '../../images/react.jpg';
+// import Html from '../../images/html.png';
+// import Css from '../../images/css.png';
+// import Js from '../../images/js.png';
+// import react from '../../images/react.jpg';
 
 
 const Skill = () => {
@@ -21,93 +21,98 @@ const Skill = () => {
                     </div>
                 </div> */}
 
-                <div class="card w-full lg:w-80  h-20  bg-base-100 shadow-xl">
+                <div class="card w-4/5 mx-10 lg:mx-0 lg:w-80   h-20  bg-base-100 shadow-xl">
                     <div class="items-center text-center">
                         <p className="font-bold text-2xl">Html</p>
-                        <progress class="progress progress-warning w-64" value="80" max="100"></progress>
+                        <progress class="progress progress-warning w-3/4 lg:w-64" value="80" max="100"></progress>
                     </div>
                 </div>
 
-                <div class="card w-full lg:w-80 h-20  bg-base-100 shadow-xl">
+                <div class="card w-4/5 mx-10 lg:mx-0 lg:w-80 h-20  bg-base-100 shadow-xl">
                     <div class="items-center text-center">
                         <p className="font-bold text-2xl">Css</p>
-                        <progress class="progress progress-warning w-64" value="70" max="100"></progress>
+                        <progress class="progress progress-warning w-3/4 lg:w-64" value="70" max="100"></progress>
                     </div>
                 </div>
 
-                <div class="card w-full lg:w-80  h-20  bg-base-100 shadow-xl">
+                <div class="card w-4/5 mx-10 lg:mx-0 lg:w-80  h-20  bg-base-100 shadow-xl">
                     <div class="items-center text-center">
                         <p className="font-bold text-2xl">Bootstrap</p>
-                        <progress class="progress progress-warning w-64" value="70" max="100"></progress>
+                        <progress class="progress progress-warning w-3/4 lg:w-64" value="70" max="100"></progress>
                     </div>
                 </div>
 
-                <div class="card w-full lg:w-80  h-20  bg-base-100 shadow-xl">
+                <div class="card w-4/5 mx-10 lg:mx-0 lg:w-80  h-20  bg-base-100 shadow-xl">
                     <div class="items-center text-center">
                         <p className="font-bold text-2xl">Tailwind</p>
-                        <progress class="progress progress-warning w-64" value="70" max="100"></progress>
+                        <progress class="progress progress-warning w-3/4 lg:w-64" value="70" max="100"></progress>
                     </div>
                 </div>
 
-                <div class="card w-full lg:w-80  h-20  bg-base-100 shadow-xl">
+                <div class="card w-4/5 mx-10 lg:mx-0 lg:w-80  h-20  bg-base-100 shadow-xl">
                     <div class="items-center text-center">
                         <p className="font-bold text-2xl">JavaScript</p>
-                        <progress class="progress progress-warning w-64" value="70" max="100"></progress>
+                        <progress class="progress progress-warning w-3/4 lg:w-64" value="70" max="100"></progress>
                     </div>
                 </div>
 
-                <div class="card w-full lg:w-80  h-20  bg-base-100 shadow-xl">
+                <div class="card w-4/5 mx-10 lg:mx-0 lg:w-80  h-20  bg-base-100 shadow-xl">
                     <div class="items-center text-center">
                         <p className="font-bold text-2xl">React</p>
-                        <progress class="progress progress-warning w-64" value="60" max="100"></progress>
+                        <progress class="progress progress-warning w-3/4 lg:w-64" value="60" max="100"></progress>
                     </div>
                 </div>
 
-                <div class="card w-full lg:w-80  h-20  bg-base-100 shadow-xl">
+                <div class="card w-4/5 mx-10 lg:mx-0 lg:w-80  h-20  bg-base-100 shadow-xl">
                     <div class="items-center text-center">
                         <p className="font-bold text-2xl">Node Js</p>
-                        <progress class="progress progress-warning w-64" value="60" max="100"></progress>
+                        <progress class="progress progress-warning w-3/4 lg:w-64" value="60" max="100"></progress>
                     </div>
                 </div>
 
-                <div class="card w-full lg:w-80  h-20  bg-base-100 shadow-xl">
+                <div class="card w-4/5 mx-10 lg:mx-0 lg:w-80  h-20  bg-base-100 shadow-xl">
                     <div class="items-center text-center">
                         <p className="font-bold text-2xl">Mongo Db</p>
-                        <progress class="progress progress-warning w-64" value="60" max="100"></progress>
+                        <progress class="progress progress-warning w-3/4 lg:w-64" value="60" max="100"></progress>
                     </div>
                 </div>
 
-                <div class="card w-full lg:w-80  h-20  bg-base-100 shadow-xl">
+                <div class="card w-4/5 mx-10 lg:mx-0 lg:w-80  h-20  bg-base-100 shadow-xl">
                     <div class="items-center text-center">
                         <p className="font-bold text-2xl">Api</p>
-                        <progress class="progress progress-warning w-64" value="60" max="100"></progress>
+                        <progress class="progress progress-warning w-3/4 lg:w-64" value="60" max="100"></progress>
                     </div>
                 </div>
 
-                <div class="card w-full lg:w-80  h-20  bg-base-100 shadow-xl">
+                <div class="card w-4/5 mx-10 lg:mx-0  lg:w-80  h-20  bg-base-100 shadow-xl">
                     <div class="items-center text-center">
                         <p className="font-bold text-2xl">Github</p>
-                        <progress class="progress progress-warning w-64" value="60" max="100"></progress>
+                        <progress class="progress progress-warning w-3/4 lg:w-64" value="60" max="100"></progress>
                     </div>
                 </div>
 
 
-                <div class="card w-full lg:w-80  h-20  bg-base-100 shadow-xl">
+                <div class="card w-4/5 mx-10 lg:mx-0  lg:w-80  h-20  bg-base-100 shadow-xl">
                     <div class="items-center text-center">
                         <p className="font-bold text-2xl">Firebase</p>
-                        <progress class="progress progress-warning w-64" value="60" max="100"></progress>
+                        <progress class="progress progress-warning w-3/4 lg:w-64" value="60" max="100"></progress>
                     </div>
                 </div>
 
-                <div class="card w-full lg:w-80  h-20  bg-base-100 shadow-xl">
+                <div class="card w-4/5 mx-10 lg:mx-0 lg:w-80  h-20  bg-base-100 shadow-xl">
+                    <div class="items-center text-center">
+                        <p className="font-bold text-2xl">React Router</p>
+                        <progress class="progress progress-warning w-3/4 lg:w-64" value="60" max="100"></progress>
+                    </div>
+                </div>
+
+
+                {/* <div class="card w-full lg:w-80  h-20  bg-base-100 shadow-xl">
                     <div class="items-center text-center">
                         <p className="font-bold text-2xl">React Router</p>
                         <progress class="progress progress-warning w-64" value="60" max="100"></progress>
                     </div>
-                </div>
-
-
-
+                </div> */}
 
 
 
