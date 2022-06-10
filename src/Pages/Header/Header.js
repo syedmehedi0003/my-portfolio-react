@@ -10,6 +10,7 @@ const Header = () => {
         <li><Link to="/skill">SKILLS</Link></li>
         <li><Link to="/mywork">MY WORK</Link></li>
         <li><Link to="/contact">CONTACT ME</Link></li>
+        <li><Link to="/blog">Blogs</Link></li>
     </>
 
 

@@ -11,6 +11,8 @@ import Skill from './Pages/Skill/Skill';
 import Project1 from './Pages/MyWork/Project1';
 import Project2 from './Pages/MyWork/Project2';
 import Project3 from './Pages/MyWork/Project3';
+import Blog from './Pages/Blog/Blog';
+import NotFound from './Pages/NotFound';
 
 function App() {
   return (
@@ -28,6 +30,8 @@ function App() {
           <Route path="project1" element={<Project1></Project1>} />
           <Route path="project2" element={<Project2></Project2>} />
           <Route path="project3" element={<Project3></Project3>} />
+          <Route path="blog" element={<Blog></Blog>} />
+          <Route path="*" element={<NotFound></NotFound>} />
 
         </Routes>
 
